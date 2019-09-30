@@ -1,0 +1,15 @@
+$TTL 604800
+@ IN SOA alderaan.ally. dns.alderaan.ally. (
+2006081401;
+28800;
+3600;
+604800;
+38400)
+@ IN NS dns.alderaan.ally.
+2 IN PTR ftp.alderaan.ally.
+2 IN PTR www.alderaan.ally.
+3 IN PTR dns.alderaan.ally.
+4 IN PTR voip.alderaan.ally.
+5 IN PTR mail.alderaan.ally.
+5 IN PTR chat.alderaan.ally.
+5 IN PTR streaming.alderaan.ally.

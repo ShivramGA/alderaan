@@ -1,0 +1,17 @@
+$TTL 604800
+alderaan.ally. IN SOA alderaan.ally. dns.alderaan.ally. (
+2006081401;
+28800;
+3600;
+604800;
+38400)
+alderaan.ally. IN NS dns.alderaan.ally.
+alderaan.ally. IN MX 10 mail.alderaan.ally.
+ftp IN A 192.168.30.2
+dns IN A 192.168.30.3
+mail IN A 192.168.30.4
+voip IN A 192.168.30.5
+http IN CNAME ftp
+ldap IN CNAME dns
+chat IN CNAME mail
+streaming IN CNAME mail
